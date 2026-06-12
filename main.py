@@ -1,56 +1,44 @@
 import database
 import calculator
 
-def find_team(search_term, teams_db):
-    """Etsii tiimin tietokannasta nimen perusteella."""
-    for team_id, team_data in teams_db.items():
-        if search_term in team_data['name'].lower():
-            return team_data
-    return None
-
 def main():
-    print("=== CS2 PRO PREDICTOR (Adjusted ELO Model) ===")
-    
-    # 1. Ladataan data database.py -tiedoston avulla
-    teams_db, players_db = database.load_data()
-    print(f"✅ Ladattu {len(teams_db)} tiimiä tietokannasta.")
+    database.init_db()  # Alustetaan kanta heti alussa
+    print("=== CS2 PRO PREDICTOR (SQL Edition) ===")
 
-    # 2. Aloitetaan pääsilmukka
     while True:
         print("\n" + "-" * 50)
-        input_home = input("Kotijoukkue (tai 'q' lopettaaksesi): ").strip().lower()
-        if input_home == 'q':
+        input_home = input("Kotijoukkue (tai 'q' lopettaaksesi): ").strip()
+        if input_home.lower() == 'q':
             break
 
-        team_home = find_team(input_home, teams_db)
+        team_home = database.get_team(input_home)
         if not team_home:
             print("❌ Joukkuetta ei löytynyt.")
             continue
+        
+        home_id, home_name, home_elo = team_home
 
-        input_away = input("Vierasjoukkue: ").strip().lower()
-        team_away = find_team(input_away, teams_db)
+        input_away = input("Vierasjoukkue: ").strip()
+        team_away = database.get_team(input_away)
         if not team_away:
             print("❌ Joukkuetta ei löytynyt.")
             continue
-
-        # 3. LASKETAAN ADJUSTED ELO (calculator.py avulla)
-        adj_elo_home, rating_home = calculator.get_adjusted_elo(team_home['elo'], team_home.get('roster', []), players_db)
-        adj_elo_away, rating_away = calculator.get_adjusted_elo(team_away['elo'], team_away.get('roster', []), players_db)
-
-        # 4. LASKETAAN TODENNÄKÖISYYS
-        prob_home = calculator.calculate_win_probability(adj_elo_home, adj_elo_away, is_bo1=False)
-        prob_away = 1 - prob_home
-
-        # 5. TULOSTETAAN TULOKSET
-        print(f"\n🎮 {team_home['name']} vs {team_away['name']}")
-        print(f"📊 Base ELO: {team_home['elo']} vs {team_away['elo']}")
-        print(f"🔥 Rating:   {rating_home:.2f} vs {rating_away:.2f}")
-        print(f"⚖️ ADJ ELO:  {adj_elo_home:.0f} vs {adj_elo_away:.0f}")
-        print(f"📈 TN:       {prob_home*100:.1f}% - {prob_away*100:.1f}%")
         
-        fair_odds_home = 1 / prob_home
-        fair_odds_away = 1 / prob_away
-        print(f"💰 REILU KERROIN: {fair_odds_home:.2f} | {fair_odds_away:.2f}")
+        away_id, away_name, away_elo = team_away
+
+        # Haetaan rosterit SQL-kannasta
+        home_roster_data = database.get_roster(home_id)
+        away_roster_data = database.get_roster(away_id)
+
+        # Laskenta
+        home_ratings = [p[1] for p in home_roster_data]
+        away_ratings = [p[1] for p in away_roster_data]
+
+        adj_elo_home, _ = calculator.get_adjusted_elo_from_ratings(home_elo, home_ratings)
+        adj_elo_away, _ = calculator.get_adjusted_elo_from_ratings(away_elo, away_ratings)
+
+        print(f"\nAnalyysi valmis:")
+        print(f"{home_name} (Adj. ELO: {adj_elo_home:.1f}) vs {away_name} (Adj. ELO: {adj_elo_away:.1f})")
 
 if __name__ == "__main__":
     main()
