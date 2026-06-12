@@ -1,0 +1,9 @@
+services:
+  cs2-laskuri:
+    build: .
+    # Nämä kaksi pitävät huolen, että 'input()' toimii terminaalissa:
+    stdin_open: true
+    tty: true
+    volumes:
+      # Tämä on se taikatemppu: Peilaa nykyisen kansion (.) kontin sisälle (/app)
+      - .:/app

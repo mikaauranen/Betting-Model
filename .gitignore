@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+env.py
+cs_database.json
