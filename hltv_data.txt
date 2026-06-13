@@ -1,302 +1,167 @@
-Players
-
-PlayerTeamsMapsRoundsK-D DiffK/DRating3.0donk681421+3761.401.44ZywOo851857+6161.611.39m0NESY871959+4361.381.27Magnojez1072264+2101.141.22insani781724+1231.101.21flameZ851857+1751.141.20sh1ro681421+3551.471.18kyousuke771739+1491.121.17makazze1002112+971.071.16blameF651387+1931.231.16KSCERATO972125+2401.181.16Staehr982038+941.071.15latto992148+2521.191.15luchov1052258+1411.091.15kl1m781724+2911.271.15xKacpersky851855+1051.081.15frozen761638+1021.091.15xertioN881862+1251.101.14molodoy972125+3311.261.14ropz851857+2781.271.14flouzer621354+781.081.14REZ861864+1141.091.14dumau992148+2011.141.13tenzy621419+631.061.13Rainwaker831823+1031.091.13afro831823+2061.191.13910831839+2261.201.13b1t1002112+1491.111.12HeavyGod1042277+1241.091.12Wicadia962112+1521.111.12MartinezSa751660+2601.261.12MaiL09661430+1061.111.12w0nderful1002112+3291.271.12JDC631343+361.041.11XANTARES962112+1421.101.11n0rb3r7641361+211.021.11maxster691490+831.091.11FL4MUS641356+751.081.11dziugss982127+1041.081.10dgt1052258+1891.131.10lauNX932019+651.051.10NiKo871959+941.081.10HUASOPEEK1052258+731.051.10mizu641361+571.061.10jabbi982038+431.031.10npl922021+711.051.09zweih982220+291.021.09NertZ771695+731.061.09nilo851805+1461.121.09MATYS1042277+731.051.09Spinx881862+1171.101.09MaSvAl621419-130.991.09avid661430+321.031.09stressarN691611+931.091.08d1Ledez631342+641.071.08kisserek691611+171.021.08br0731622-160.991.08Swisher751609-70.991.08nEMANHA641427-400.961.07eraa661430+1801.201.07Jame982220+2341.191.07koala821767+891.081.07Krabeni982127+621.041.07iM1002112+511.041.07phzy982038+1411.111.07dem0n982127+381.031.07Twistzz761638-100.991.07Dawy641428+211.021.07tN1R681421+461.051.06Matheos681471+111.011.06z1k4621354+1211.141.06PR771660+411.041.06SunPayus1042277+2671.201.06ayuki621354+171.021.06misutaaa631370-150.981.06YEKINDAR972125+11.001.06woxic962112+2001.161.06slaxz-751609+1091.111.05saadzin992148+2221.191.05mezii851857+171.021.05mzinho831839-160.991.05AW621419+21.001.05xfl0ud851805-580.951.05Banjo681471-310.971.05piriajr791692+411.041.05gr1ks651387+1431.171.05NAF631405+31.001.05malbsMd861887-400.971.05mag1k3Y681568+1431.151.04m1QUSE621354-210.981.04hypex861864+1451.131.04Lake751609-890.921.04mopoz751660-730.941.04sausol751660+261.021.04Jorko681471+1101.121.04Tauson861864+221.021.04S1ren972074+71.011.04doc821767-130.991.03try631405+801.091.03Jeorge591337-330.961.03frontales591254+591.081.03EliGE701554-660.941.03MoDo691611+1591.171.03TeSeS871959-440.961.03Lucky831785-80.991.03n1ssim992148+261.021.03tex1y681568-680.941.03zeRRoFIX641428+171.021.02torzsi881862+1981.191.02alex751660-80.991.02SHOCK691611-300.971.02cairne851855-90.991.02cobrazera831839-300.981.02ryu982038-450.971.01rdnzao821767-210.981.01sjuush851855-450.961.01snow791692-360.971.01Ro1f681469-600.941.01oSee761686+391.041.01venomzera781724-950.921.01Sdaim681568-950.911.01kensizor922021-1140.921.01SELLTER681568-800.931.00kraghen621364-570.941.00cmtry982127+211.021.00soulfly962112-980.931.00cej0t591284-620.931.00Sonic761686-1010.921.00magixx681421-400.951.00Bymas831823+11.001.00maxxkor821767+671.061.00xiELO982220-1450.910.99cptkurtka023641428-1080.890.99bnox591284-400.950.99yxngstxr851805+591.050.99apEX851857-1090.910.99huNter-942071-400.970.99Cxzi671486-1250.890.99JBa751609-540.950.99esenthial922021-580.960.99susp851805-1490.880.99beastik691611-1060.900.98ultimate701554+161.020.98zont1x681421-120.990.98vsm791692-590.950.98senka621354-1570.830.98Maka831785+261.020.98ztr771675-950.920.98LNZ781724-1020.910.98volt681471-910.910.98raalz621364-920.900.97s1zzi871914-110.990.97alex666922021-1450.890.97meyern1052258+321.020.97arT871888-1280.900.97Kvem621341-820.920.97yuurih972125-1070.920.96dav1g751660-910.920.96faveN651387-660.930.96brnz4n781724-1250.890.96nota982220-1380.910.96Boombl41022146-1680.890.96bobeksde691490-1440.870.95broky761638+211.020.95twist661430-1340.860.95s1n751609-910.910.95Techno831839-1360.890.95jcobbb761638-1530.870.94max1052258-2120.860.94dex691490-1530.860.94AZUWU831823-1190.910.94BELCHONOKK982220-1740.880.94gafolo821767-1230.900.94Chr1zN851805-1850.850.94Ex3rcice831785-1470.880.94bLitz831839-1620.870.94JT621341-1750.820.93Gizmy831823-1950.850.93onic641428-1380.860.93Graviti831785-1550.880.93sFade8621419-1520.850.93nitr0761686-1930.830.93MAJ3R962112-2190.840.92upE661430-1100.880.92FalleN972125-2070.850.91biguzera791692-1690.850.91JW691490-1300.870.90tabseN651387-2000.790.90Aleksib1002112-2670.800.89siuhy701554-2570.770.87Snax861864-2760.790.87Snappi851855-2440.810.87nicx621341-1830.800.86HooXi982038-3310.770.85karrigan781710-3650.710.81
-
-MOUZ
-
-1.71
-
-VS
-
-
-
-Legacy
-
-2.11
-
-BET NOW
-
-Navigation
-
-Overview
-
-Players
-
-Overview
-
-Flashes
-
-Opening kills
-
-Pistol rounds
-
-Teams
-
-Matches
-
-Events
-
-Maps
-
-Leaderboards
-
-Compare
-
-1.6 stats section
-
-Search stats
-
-
-
-Version
-
-Both
-
-CS2
-
-CSGO
-
-Filters
-
-Event type
-
-All matches
-
-Majors
-
-Big events
-
-MVP events
-
-LAN
-
-Online
-
-Time
-
-All time
-
-Last month
-
-Last 3 months
-
-Last 6 months
-
-Last 12 months
-
-2026
-
-2025
-
-2024
-
-2023
-
-2022
-
-2021
-
-2020
-
-2019
-
-2018
-
-2017
-
-2016
-
-2015
-
-2014
-
-2013
-
-2012
-
-
-
-Ranking
-
-All
-
-Top 5
-
-Top 10
-
-Top 20
-
-Top 30
-
-Top 50
-
-Best Of X
-
-All
-
-Best of 1
-
-Best of 3
-
-Best of 5
-
-Valve Ranked
-
-Both
-
-Ranked
-
-Unranked
-
-Match type
-
-All matches
-
-Grand final
-
-Playoffs
-
-Pre-playoff
-
-Country
-
-
-
-Gender
-
-All
-
-Men
-
-Women
-
-Age
-
-Min age
-
-
-
-Max age
-
-
-
-Maps
-
-All
-
-Ancient
-
-Anubis
-
-Dust2
-
-Inferno
-
-Mirage
-
-Nuke
-
-Overpass
-
-Cache
-
-Cobblestone
-
-Season
-
-Train
-
-Tuscan
-
-Vertigo
-
-Maps in filter
-
-2,191
-
-Min. maps:
-
-
-
-RECENT ACTIVITY
-
-
-
-Tomorrow is the day
-
-16Donk legacy > Zywoo legacy
-
-31jab jabich pronunciation
-
-34Why Zywoo owns prime s1mple
-
-65illwill vs G2 Ares
-
-31The MongolZ vs BetBoom
-
-45Goatwoo Plays Tomorrow
-
-14Visualized: Every team at IEM Cologne Major 2026 Stage 3
-
-40the only correct pickems v2
-
-13MOUZ vs Legacy
-
-45PARIVISION vs 9z
-
-94jab jabich hype
-
-27Natus Vincere vs Spirit
-
-147Aleksib: "Now we have the individuals who are bailing us out in crucial moments"
-
-32apEX: "This Major is super important to end the [GOAT] debate for a lot of people"
-
-82Spirit explanation
-
-9MAJOR START TOMORROW
-
-14ALEKSIB 2ND MAJOR
-
-46kassad bullies Astralis
-
-160B8 Academy vs DONSTU
-
-6
-
-
-
-1.58
-
-2.29
-
-BET NOWHLTV
-
-BONUS CODE
-
-MINIGAME
-
-
-
-Timeline
-
-Play
-
-TOP 30 TRANSFERS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-All transfers 
-
+	Maps	Rounds	K-D Diff	K/D	Rating
+3.0
+Russiadonk	Spirit	49	992	+283	1.43	1.48
+FranceZywOo	Vitality	55	1187	+364	1.55	1.37
+Russiam0NESY	Falcons	59	1336	+275	1.35	1.26
+Brazilinsani	MIBR	40	843	+73	1.12	1.22
+RussiaMagnojez	BetBoom	59	1226	+127	1.16	1.21
+IsraelxertioN	MOUZ	55	1148	+107	1.14	1.20
+IsraelflameZ	Vitality	55	1187	+108	1.14	1.19
+Brazillatto	Legacy	75	1573	+228	1.24	1.19
+Kosovomakazze	Natus Vincere	65	1360	+88	1.09	1.19
+Ukrainew0nderful	Natus Vincere	65	1360	+291	1.38	1.18
+BrazilKSCERATO	FURIA	45	976	+145	1.24	1.18
+Slovakiafrozen	FaZe	46	1023	+93	1.14	1.17
+Estoniaropz	Vitality	55	1187	+183	1.27	1.17
+ChinaJamYoung	TYLOO	39	827	+29	1.05	1.16
+Kazakhstanmolodoy	FURIA	45	976	+175	1.31	1.16
+DenmarkStaehr	Astralis	43	902	+53	1.09	1.16
+Argentinaluchov	9z	67	1435	+104	1.11	1.15
+Russiash1ro	Spirit	49	992	+217	1.41	1.15
+IsraelHeavyGod	G2	61	1332	+72	1.08	1.15
+Mongolia910	The MongolZ	55	1248	+184	1.24	1.15
+Swedennilo	HEROIC	41	874	+91	1.16	1.14
+DenmarkblameF	BIG	52	1098	+130	1.19	1.14
+TurkeyWicadia	Aurora	55	1164	+116	1.15	1.14
+Ukraineb1t	Natus Vincere	65	1360	+119	1.14	1.13
+Russiakyousuke	Falcons	57	1296	+60	1.07	1.13
+Franceafro	Monte	53	1136	+128	1.19	1.13
+Lithuaniadziugss	FUT	47	1009	+53	1.08	1.13
+BulgariaRainwaker	Monte	53	1136	+77	1.11	1.13
+Brazildumau	Legacy	75	1573	+135	1.13	1.13
+SwedenMaiL09	Alliance	51	1110	+98	1.14	1.12
+PolandxKacpersky	Ninjas in Pyjamas	49	1062	+46	1.06	1.12
+RussiaFL4MUS	BetBoom	59	1226	+84	1.10	1.12
+BelarusMaSvAl	magic	42	977	0	1.00	1.11
+Denmarkjabbi	Astralis	43	902	+27	1.04	1.11
+Russiakl1m	MIBR	40	843	+111	1.21	1.11
+Ukrainedem0n	FUT	47	1009	+53	1.08	1.11
+GermanyJDC	BIG	50	1054	+35	1.05	1.11
+Swedenavid	Alliance	51	1110	+44	1.06	1.11
+RomaniaiM	Natus Vincere	65	1360	+85	1.10	1.10
+SwedenREZ	GamerLegion	50	1066	+7	1.01	1.10
+CanadaTwistzz	FaZe	46	1023	+28	1.04	1.10
+Ukrainenpl	B8	72	1583	+50	1.05	1.10
+Russiatenzy	magic	42	977	+18	1.03	1.10
+BelarustN1R	Spirit	49	992	+55	1.09	1.09
+SpainMartinezSa	Gentle Mates	38	847	+114	1.22	1.09
+Swedeneraa	Alliance	51	1110	+181	1.27	1.09
+Brazilsnow	paiN	42	852	+36	1.06	1.09
+GuatemalamalbsMd	Liquid	37	810	-14	0.98	1.09
+Bosnia and HerzegovinaNiKo	Falcons	59	1336	+37	1.04	1.08
+Brazilpiriajr	paiN	42	852	+66	1.12	1.07
+LatviaYEKINDAR	FURIA	45	976	+27	1.04	1.07
+Russiazweih	PARIVISION	48	1059	+6	1.01	1.07
+Spainalex	Gentle Mates	38	847	+30	1.06	1.07
+ChileHUASOPEEK	9z	67	1435	+7	1.01	1.06
+IsraelNertZ	G2	61	1332	+51	1.06	1.06
+Turkeywoxic	Aurora	55	1164	+130	1.19	1.06
+SlovakiaMATYS	G2	61	1332	+16	1.02	1.06
+Hungaryxelex	MOUZ	38	791	+18	1.04	1.06
+RussiaJame	PARIVISION	48	1059	+115	1.19	1.06
+United StatesLake	M80	37	799	-30	0.95	1.06
+FranceLucky	3DMAX	44	963	+1	1.00	1.06
+LithuaniajL	MOUZLiquid	43	925	+45	1.08	1.06
+DenmarkTeSeS	Falcons	59	1336	+8	1.01	1.06
+SpainSunPayus	G2	61	1332	+154	1.20	1.06
+Czech RepublicPR	GamerLegion	50	1066	+21	1.03	1.05
+United StatesSwisher	M80	37	799	-28	0.95	1.05
+FinlandBanjo	FOKUS	42	898	-35	0.94	1.05
+UkraineDawy	Inner Circle	37	807	+4	1.01	1.05
+Uruguaydgt	9z	67	1435	+66	1.07	1.05
+CroatiaMatheos	FOKUS	42	898	-9	0.99	1.05
+Mongoliamzinho	The MongolZ	55	1248	+15	1.02	1.04
+Swedenphzy	Astralis	43	902	+38	1.07	1.04
+Brazilsaadzin	Legacy	75	1573	+158	1.18	1.04
+BulgariaJorko	FOKUS	42	898	+63	1.11	1.04
+Ukrainecairne	Ninjas in Pyjamas	49	1062	+1	1.00	1.04
+Denmarksjuush	Ninjas in Pyjamas	49	1062	+20	1.03	1.04
+TurkeyXANTARES	Aurora	55	1164	+35	1.05	1.04
+United Kingdommezii	Vitality	55	1187	+21	1.03	1.04
+Bosnia and HerzegovinahuNter-	G2	51	1126	+45	1.06	1.04
+KosovoKrabeni	FUT	47	1009	+4	1.01	1.04
+CanadaNAF	Liquid	48	1059	-9	0.99	1.04
+Mongoliacobrazera	The MongolZ	55	1248	-10	0.99	1.03
+Belarusgr1ks	BIG	52	1098	+88	1.13	1.03
+United StatesEliGE	Liquid	48	1059	-53	0.93	1.03
+Polandhypex	GamerLegion	50	1066	+45	1.07	1.03
+IsraelSpinx	MOUZ	55	1148	+4	1.01	1.03
+SwedenLNZ	MIBR	40	843	-31	0.94	1.03
+RussiaAW	magic	42	977	0	1.00	1.03
+Brazilyuurih	FURIA	45	976	+26	1.04	1.02
+RomanialauNX	FUT	42	901	-24	0.96	1.02
+RussiaS1ren	BetBoom	44	922	-23	0.96	1.02
+Turkeyxfl0ud	HEROIC	41	874	-63	0.90	1.01
+Ukraineheadtr1ck	Inner Circle	37	807	+71	1.15	1.01
+Francemisutaaa	3DMAX	44	963	-54	0.92	1.01
+Russiazorte	BetBoom	59	1226	+106	1.15	1.01
+Germanyslaxz-	M80	37	799	+29	1.06	1.01
+Spainmopoz	Gentle Mates	38	847	-58	0.90	1.00
+ChinaZero	TYLOO	39	827	-52	0.91	1.00
+Russiamagixx	Spirit	49	992	-25	0.96	1.00
+ChinaMoseyuh	TYLOO	39	827	-43	0.92	1.00
+Ukrainecmtry	FUT	47	1009	+20	1.03	1.00
+DenmarkTauson	GamerLegion	50	1066	-29	0.96	1.00
+Hungarytorzsi	MOUZ	55	1148	+89	1.14	1.00
+Romaniavolt	FOKUS	42	898	-39	0.93	1.00
+Argentinameyern	9z	67	1435	+55	1.06	1.00
+Ukraines1zzi	B8	72	1583	+2	1.00	1.00
+Ukrainekensizor	B8	72	1583	-92	0.92	0.99
+Swedentwist	Alliance	51	1110	-65	0.91	0.99
+Turkeysoulfly	Aurora	55	1164	-72	0.90	0.99
+UkrainezeRRoFIX	Inner Circle	37	807	-28	0.95	0.99
+Ukraineesenthial	B8	72	1583	-34	0.97	0.98
+Brazilvenomzera	MIBR	40	843	-62	0.90	0.98
+United KingdomAZUWU	Monte	53	1136	-63	0.92	0.98
+RussiaxiELO	PARIVISION	48	1059	-93	0.88	0.98
+Brazilbiguzera	paiN	42	852	-31	0.94	0.98
+Braziln1ssim	Legacy	75	1573	-21	0.98	0.98
+United StatesJBa	M80	37	799	-35	0.93	0.98
+Polandultimate	Liquid	48	1059	0	1.00	0.98
+Swedensusp	HEROIC	41	874	-82	0.86	0.98
+FranceapEX	Vitality	55	1187	-71	0.91	0.97
+Latviabroky	FaZe	46	1023	+40	1.06	0.97
+FranceMaka	3DMAX	44	963	-8	0.99	0.97
+United KingdomGizmy	Monte	53	1136	-99	0.87	0.97
+Ukrainezont1x	Spirit	49	992	-23	0.96	0.97
+Spainsausol	Gentle Mates	38	847	-22	0.96	0.97
+Ukrainecptkurtka023	Inner Circle	37	807	-81	0.86	0.97
+Polandjcobbb	FaZe	46	1023	-65	0.91	0.97
+MongoliabLitz	The MongolZ	55	1248	-75	0.91	0.97
+Brazilvsm	paiN	42	852	-53	0.91	0.97
+Lithuaniaryu	Astralis	43	902	-45	0.93	0.97
+MongoliaTechno	The MongolZ	55	1248	-62	0.93	0.96
+Kazakhstanmo0N	magic	42	977	+20	1.03	0.96
+RussiaBoombl4	BetBoom	59	1226	-88	0.89	0.96
+Ukrainealex666	B8	72	1583	-135	0.87	0.96
+UkrainesFade8	magic	42	977	-72	0.90	0.96
+Swedenyxngstxr	HEROIC	41	874	-5	0.99	0.96
+TurkeyMAJ3R	Aurora	55	1164	-79	0.89	0.95
+LithuaniaBymas	Monte	53	1136	-47	0.93	0.95
+BrazilFalleN	FURIA	45	976	-57	0.91	0.95
+FranceGraviti	3DMAX	44	963	-81	0.88	0.95
+Swedenztr	FOKUS	42	898	-76	0.88	0.95
+Russianota	PARIVISION	48	1059	-78	0.89	0.94
+BrazilarT	Legacy	75	1573	-145	0.87	0.94
+SwedenupE	Alliance	51	1110	-55	0.92	0.94
+ChinaJee	TYLOO	39	827	-19	0.96	0.93
+GermanyfaveN	BIG	52	1098	-81	0.89	0.93
+Germanys1n	M80	37	799	-52	0.89	0.92
+DenmarkChr1zN	HEROIC	41	874	-111	0.82	0.92
+Ukraineonic	Inner Circle	37	807	-100	0.82	0.92
+ChinaMercury	TYLOO	39	827	-78	0.86	0.91
+FranceEx3rcice	3DMAX	44	963	-89	0.87	0.91
+RussiaBELCHONOKK	PARIVISION	48	1059	-124	0.83	0.91
+FinlandAleksib	Natus Vincere	65	1360	-143	0.83	0.91
+Uruguaymax	9z	67	1435	-178	0.81	0.90
+Spaindav1g	Gentle Mates	38	847	-92	0.84	0.90
+Brazilbrnz4n	MIBR	40	843	-109	0.81	0.90
+DenmarkSnappi	Ninjas in Pyjamas	49	1062	-98	0.86	0.90
+GermanytabseN	BIG	52	1098	-188	0.76	0.87
+DenmarkHooXi	Astralis	43	902	-168	0.73	0.85
+Polandsiuhy	Liquid	48	1059	-184	0.76	0.85
+PolandSnax	GamerLegion	50	1066	-187	0.76	0.83
+Denmarkkarrigan	FalconsFaZe	53	1215	-284	0.67	0.78
+
+Aurora
+2.10

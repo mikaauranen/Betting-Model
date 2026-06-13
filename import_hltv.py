@@ -1,49 +1,56 @@
-import json
-import re
-
-DB_FILE = "cs_database.json"
-HLTV_FILE = "hltv_data.txt"
+import database
 
 def update_from_hltv():
-    print("🔄 Luetaan HLTV-dataa ja etsitään pelaajia...")
+    print("Haetaan pelaajia tietokannasta ja päivitetään ratingit...")
     
-    # Ladataan tietokanta
+    # 1. Luetaan HLTV:n raakadata
     try:
-        with open(DB_FILE, "r", encoding="utf-8") as f:
-            db = json.load(f)
+        with open("hltv_data.txt", "r", encoding="utf-8") as f:
+            lines = f.readlines()
     except FileNotFoundError:
-        print(f"❌ Tietokantaa {DB_FILE} ei löytynyt.")
+        print("❌ Virhe: Tiedostoa 'hltv_data.txt' ei löytynyt.")
         return
 
-    # Ladataan kopioitu teksti
-    try:
-        with open(HLTV_FILE, "r", encoding="utf-8") as f:
-            hltv_text = f.read()
-    except FileNotFoundError:
-        print(f"❌ Tiedostoa {HLTV_FILE} ei löytynyt. Luo se ja liitä HLTV:n teksti sinne.")
-        return
+    # 2. Avataan tietokantayhteys
+    conn = database.get_connection()
+    cursor = conn.cursor()
 
-    # Siivotaan rivinvaihdot ja välilyönnit, jotta teksti on yhtenäinen pötkö
-    hltv_text = hltv_text.replace("\n", "").replace(" ", "")
+    # 3. Haetaan pelaajat tietokannasta
+    cursor.execute("SELECT name FROM players")
+    players = cursor.fetchall()
 
     players_updated = 0
 
-    # Käydään läpi kaikki tietokannan pelaajat
-    for p_name in db["players"].keys():
-        # Regex etsii pelaajan nimen, jota seuraa kartat, kierrokset, K-D diff (+/-), K/D ja lopuksi Rating
-        # Esim. regex lukee: zywoo -> 851857 -> +616 -> 1.61 -> nappaa (1.39)
-        pattern = re.compile(re.escape(p_name) + r"\d+[+-]\d+\d\.\d{2}(\d\.\d{2})", re.IGNORECASE)
-        match = pattern.search(hltv_text)
+    # 4. Käydään jokainen pelaaja läpi
+    for (p_name,) in players:
+        p_name_lower = p_name.lower()
         
-        if match:
-            new_rating = float(match.group(1))
-            db["players"][p_name]["rating"] = new_rating
-            players_updated += 1
-            print(f"  + Päivitetty: {p_name.capitalize()} -> {new_rating}")
+        # Etsitään oikea rivi tekstitiedostosta
+        for line in lines:
+            parts = line.split()
+            if not parts:
+                continue
+                
+            # Esim: "Russiadonk" tai "FranceZywOo". Pelaajan nimi on aina tämän sanan lopussa.
+            first_word = parts[0].lower()
+            
+            # Jos sana päättyy pelaajan nimeen (esim "russiadonk" päättyy "donk")
+            if first_word.endswith(p_name_lower):
+                try:
+                    # HLTV:n taulukossa rating on AINA rivin viimeinen luku
+                    new_rating = float(parts[-1])
+                    
+                    # Päivitetään tietokanta
+                    cursor.execute("UPDATE players SET rating = ? WHERE name = ?", (new_rating, p_name))
+                    players_updated += 1
+                    print(f" + Päivitetty: {p_name.capitalize()} -> {new_rating}")
+                    break # Siirrytään seuraavaan pelaajaan heti kun löytyi
+                except ValueError:
+                    pass
 
-    # Tallennetaan päivitetyt tiedot
-    with open(DB_FILE, "w", encoding="utf-8") as f:
-        json.dump(db, f, indent=4, ensure_ascii=False)
+    # 5. Tallennetaan muutokset
+    conn.commit()
+    conn.close()
 
     print("-" * 40)
     print(f"✅ Valmista! Päivitettiin onnistuneesti {players_updated} pelaajan HLTV-rating tietokantaan.")
